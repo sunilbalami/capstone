@@ -33,7 +33,7 @@
 }
 
 .navbar .menu li a:hover {
-  text-decoration: underline solid #495e57;
+  text-decoration: underline solid black;
 }
 
 .mobile-menu-toggle {

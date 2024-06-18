@@ -1,9 +1,12 @@
-// src/components/Header.js
+// Header.js
+
 import logo from "./../../Logo.svg";
 import React, { useState } from "react";
 import "./Header.css"; // Import your CSS file for styling
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
+
 const Header = () => {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
 
@@ -14,30 +17,35 @@ const Header = () => {
   return (
     <header className="header">
       <div className="logo">
-        <a href="/">
+        <Link to="/">
           <img src={logo} alt="Logo" />
-        </a>
+        </Link>
       </div>
 
       <nav className={`navbar ${showMobileMenu ? "show" : ""}`}>
         <ul className="menu">
           <li>
-            <a href="/">Home</a>
+            <Link to="/Home">Home</Link>
           </li>
           <li>
-            <a href="/">Menu</a>
+            <Link to="/Menu">Menu</Link>
           </li>
           <li>
-            <a href="/">Reservations</a>
+            <Link to="/Reservations">Reservations</Link>
           </li>
           <li>
-            <a href="/">Order online</a>
+            <Link to="/OrderOnline">Order Online</Link>
           </li>
           <li>
-            <a href="/">Login</a>
+            <Link to="/Login">Login</Link>
           </li>
         </ul>
-        <div className="mobile-menu-toggle" onClick={toggleMobileMenu}>
+        <div
+          className="mobile-menu-toggle"
+          onClick={toggleMobileMenu}
+          role="button"
+          aria-label="Toggle mobile menu"
+        >
           <FontAwesomeIcon icon={showMobileMenu ? faTimes : faBars} />
         </div>
       </nav>
