@@ -13,12 +13,18 @@ describe("Header Component", () => {
       </Router>
     );
 
-    // Check if logo is rendered with alt text "Logo"
+    // Find the logo element by alt text
     const logoElement = screen.getByAltText("Logo");
+
+    // Assert that the logo element exists
     expect(logoElement).toBeInTheDocument();
 
-    // Check if logo links to home page
-    expect(logoElement.closest("a")).toHaveAttribute("href", "/");
+    // Find the anchor element that wraps the logo by searching for an ancestor with the appropriate role
+    const logoLink = screen.getByRole("link", { name: "Logo" });
+
+    // Assert that the logo link exists and has the correct href attribute
+    expect(logoLink).toBeInTheDocument();
+    expect(logoLink.getAttribute("href")).toBe("/"); // Adjust this based on your actual href value
   });
 
   test("renders navigation links correctly", () => {

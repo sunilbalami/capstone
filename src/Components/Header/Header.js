@@ -17,9 +17,9 @@ const Header = () => {
   return (
     <header className="header">
       <div className="logo">
-        <Link to="/">
+        <a href="/">
           <img src={logo} alt="Logo" />
-        </Link>
+        </a>
       </div>
 
       <nav className={`navbar ${showMobileMenu ? "show" : ""}`}>
