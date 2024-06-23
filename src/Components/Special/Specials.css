@@ -1,0 +1,28 @@
+.special {
+  margin: 110px auto;
+  padding: 10px 15%;
+}
+.special-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.online-menu {
+  background-color: #f4ce14;
+  border-radius: 10px;
+  text-align: center;
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .special {
+    margin: 2%;
+    padding: 10px;
+  }
+}
