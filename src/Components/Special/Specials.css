@@ -8,6 +8,10 @@
   align-items: center;
   gap: 20px;
 }
+.special-header h2 {
+  font-size: 28px;
+  font-weight: normal;
+}
 .online-menu {
   background-color: #f4ce14;
   border-radius: 10px;

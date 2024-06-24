@@ -6,7 +6,7 @@
 
 .testimonial-header {
   text-align: center;
-  font-size: 24px;
+  font-size: 28px;
   margin-bottom: 20px;
   color: #333;
 }
@@ -60,9 +60,13 @@
 p {
   font-size: 18px;
 }
-/* .testimonials {
-  display: flex;
+.star {
+  font-size: 30px;
+  color: #ddd;
+  text-align: center;
 }
+
+/*
 
 .testimonial-list {
   display: flex;
@@ -91,11 +95,6 @@ p {
 
 
 
-.star {
-  font-size: 20px;
-  color: #ddd;
-  text-align: center;
-}
 
 
 

@@ -5,7 +5,6 @@
   background-color: #495e57;
   color: white;
   align-items: center;
-
   gap: 20px;
 }
 
@@ -24,7 +23,7 @@
 }
 
 .hero p {
-  font-size: 28px;
+  font-size: 24px;
 }
 h4 {
   font-weight: normal;

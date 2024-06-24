@@ -1,5 +1,6 @@
 /* Footer.css */
 .footer {
+  font-size: 18px;
   margin: 110px auto;
   padding: 10px 15%;
   display: flex;
@@ -8,6 +9,9 @@
   text-align: left;
   gap: 20px;
   flex-wrap: wrap;
+}
+.footer-logo img {
+  height: 50px;
 }
 
 .footer-menu {

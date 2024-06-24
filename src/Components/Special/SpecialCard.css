@@ -11,6 +11,9 @@
   border-radius: 10px;
   overflow: hidden;
 }
+.card-title {
+  font-size: 24px;
+}
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
@@ -31,6 +34,7 @@
 }
 .price {
   color: #ee9972;
+  font-size: 24px;
 }
 
 .delivery {
@@ -41,4 +45,8 @@
 .online-btn {
   border: none;
   margin-right: 20px;
+  font-weight: bold;
+}
+.online-btn:hover {
+  text-decoration: underline;
 }
