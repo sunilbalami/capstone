@@ -7,7 +7,7 @@
 }
 
 .logo img {
-  height: 40px; /* Adjust height as needed */
+  height: 60px; /* Adjust height as needed */
 }
 
 .navbar .menu {
@@ -29,7 +29,7 @@
   text-decoration: none;
   color: #333;
   font-weight: bold;
-  font-size: 14px; /* Adjust font size as needed */
+  font-size: 24px; /* Adjust font size as needed */
 }
 
 .navbar .menu li a:hover {

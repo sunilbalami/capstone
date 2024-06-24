@@ -5,12 +5,13 @@
   background-color: #495e57;
   color: white;
   align-items: center;
+
   gap: 20px;
 }
 
 .hero h1 {
   font-family: "Markazi Text", serif;
-  font-size: 40px;
+  font-size: 48px;
   font-weight: normal;
   color: #f4ce14;
   margin-bottom: 0;
@@ -22,14 +23,17 @@
   margin-top: 0;
 }
 
-p {
-  font-size: 18px;
+.hero p {
+  font-size: 28px;
+}
+h4 {
+  font-weight: normal;
 }
 
 .hero-content {
   padding-top: 10px;
   text-align: left;
-  width: 300px;
+  width: 280px;
 }
 
 .hero-image {

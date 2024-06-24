@@ -1,0 +1,61 @@
+/* Footer.css */
+.footer {
+  margin: 110px auto;
+  padding: 10px 15%;
+  display: flex;
+  color: black;
+  justify-content: space-between;
+  text-align: left;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.footer-menu {
+  text-align: left;
+}
+
+h4 {
+  margin-top: 0;
+}
+
+.menu,
+.contact ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.menu li a,
+.contact ul li {
+  color: black;
+  text-decoration: none;
+  transition: color 0.3s, text-decoration 0.3s;
+}
+
+.menu li a:hover,
+.contact ul li:hover {
+  color: gray;
+  text-decoration: underline solid black;
+}
+
+.menu li a:active,
+.contact ul li:active {
+  color: darkgray;
+}
+
+.icons {
+  display: flex;
+  gap: 20px;
+}
+
+.icons a {
+  color: black;
+  transition: color 0.3s;
+}
+
+.icons a:hover {
+  color: gray;
+}
+
+.icons a:active {
+  color: darkgray;
+}
