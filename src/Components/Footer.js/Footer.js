@@ -1,4 +1,4 @@
-import FooterLogo from "../../../src/Logo.svg";
+import FooterLogo from "../../../src/Assests/footerlogo.png";
 import { Link } from "react-router-dom";
 import "./Footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -67,6 +67,7 @@ const Footer = () => {
             <FontAwesomeIcon icon={faTiktok} size="2x" />
           </a>
         </div>
+        <p> @ Little Lemon Restaurant. All right reserve</p>
       </div>
     </footer>
   );
