@@ -3,7 +3,7 @@ import heroImage from "../../Assests/restauranfood.jpg";
 import { Link } from "react-router-dom";
 const Hero = () => {
   return (
-    <main className="hero">
+    <main className="main">
       <div className="hero-content">
         <h1>Little Lemon</h1>
         <h4>Chicago</h4>
