@@ -24,6 +24,7 @@ const PersonalDetail = () => {
     e.preventDefault();
     // Perform any form submission logic here
     navigate("/reservation/confirmation");
+    console.log(personalData);
   };
 
   const navigate = useNavigate();
